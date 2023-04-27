@@ -1,0 +1,91 @@
+@mixin mediaQuery($name) {
+    @if $name == miny {
+        @media screen and (max-width: 575px) {
+            @content;
+        }
+    } @else if $name == mobile {
+        @media screen and (min-width: 576px) and (max-width: 767px) {
+            @content;
+        }
+    } @else if $name == small {
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+            @content;
+        }
+    } @else if $name == medium {
+        @media screen and (min-width: 992px) and (max-width: 1199px) {
+            @content;
+        }
+    } @else if $name == large {
+        @media screen and (min-width: 1200px) and (max-width: 1399px){
+            @content;
+        }
+    } @else if $name == x-large {
+        @media screen and (min-width: 1400px){
+            @content;
+        }
+    } @else if $name == from-mobile {
+        @media screen and (min-width: 576px) {
+            @content;
+        }
+    } @else if $name == from-small {
+        @media screen and (min-width: 768px) {
+            @content;
+        }
+    } @else if $name == from-medium {
+        @media screen and (min-width: 992px) {
+            @content;
+        }
+    } @else if $name == from-large {
+        @media screen and (min-width: 1200px) {
+            @content;
+        }
+    } @else if $name == to-mobile {
+        @media screen and (max-width: 767px) {
+            @content;
+        }
+    } @else if $name == to-small {
+        @media screen and (max-width: 991px) {
+            @content;
+        }
+    } @else if $name == to-medium {
+        @media screen and (max-width: 1199px) {
+            @content;
+        }
+    } @else if $name == to-large {
+        @media screen and (max-width: 1399px){
+            @content;
+        }
+    } 
+}
+
+@mixin rotateY($x) {
+    transform: rotateY($x);
+    -ms-transform: rotateY($x);
+    -moz-transform: rotateY($x);
+    -webkit-transform: rotateY($x);
+    -o-transform: rotateY($x);
+}
+@mixin translate($x,$y) {
+    transform: translate($x,$y);
+    -ms-transform: translate($x,$y);
+    -moz-transform: translate($x,$y);
+    -webkit-transform: translate($x,$y);
+    -o-transform: translate($x,$y);
+}
+@mixin borderBox() {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+@mixin normalize() {
+    @include borderBox;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin transition($time) {
+    transition: $time;
+}

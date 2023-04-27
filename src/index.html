@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Special Design</title>
+        <link rel="stylesheet" href="./assets/css/all.min.css">
+        <link rel="stylesheet" href="../dist/output.css">
+        <link rel="stylesheet" href="./assets/scss/index.css">
+        <link rel="stylesheet" href="../dist/output.css">
+    </head>
+    <body>
+        <main class="page">
+            <header class="header flex justify-center items-center bg-transparent p-6 absolute top-0 left-0 w-screen z-10">
+                <div class="container flex justify-between items-center">
+                    <div class="brand capitalize font-bold text-white">
+                        special design
+                    </div>
+                    <i class="menu-btn fas fa-bars text-white text-2xl cursor-pointer md:hidden"></i>
+                    <ul class="links hidden absolute p-2 list-none gap-8 md:p-0 md:bg-transparent md:flex md:static">
+                        <li class="p-4 md:p-0"><a class="cursor-pointer capitalize text-white active" href="#about">about</a></li>
+                        <li class="p-4 md:p-0"><a class="cursor-pointer capitalize text-white" href="#skills">skills</a></li>
+                        <li class="p-4 md:p-0"><a class="cursor-pointer capitalize text-white" href="#gallery">gallery</a></li>
+                        <li class="p-4 md:p-0"><a class="cursor-pointer capitalize text-white" href="#timeline">timeline</a></li>
+                        <li class="p-4 md:p-0"><a class="cursor-pointer capitalize text-white" href="#features">features</a></li>
+                        <li class="p-4 md:p-0"><a class="cursor-pointer capitalize text-white" href="#testimonials">testimonials</a></li>
+                    </ul>
+                </div>
+            </header>
+            <section class="landing flex justify-center items-center h-screen relative">
+                <div class="container text-center flex flex-col items-center z-10">
+                    <h2 class="text-4xl font-bold capitalize mb-4 text-white">we are <span>creative</span> agency</h2>
+                    <p class="w-full xl:w-7/12 text-stone-100">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo consequatur earum ratione minus eum eaque ut nulla tempora delectus unde laborum reiciendis pariatur</p>
+                </div>
+            </section>
+            <section class="about flex justify-center items-center" id="about">
+                <div class="container flex justify-between items-center">
+                    <div class="content">
+                        <h2 class="title">about us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione architecto quasi molestiae. Soluta sint consequatur molestias, pariatur odio repellat deserunt. Debitis optio nulla suscipit illum non quibusdam dolore architecto. In.</p>
+                    </div>
+                    <div class="img">
+                        <img src="./assets/images/rohit-tandon-9wg5jCEPBsw-unsplash.jpg" alt="about">
+                    </div>
+                </div>
+            </section>
+            <section class="skills flex justify-center items-center" id="skills">
+                <div class="container flex flex-col items-center">
+                    <h2 class="title">our skills</h2>
+                    <div class="content flex flex-col justify-between items-center">
+                        <div class="skill flex items-center">
+                            <h2>HTML</h2>
+                            <div class="progress">
+                                <span data-progress="90%"></span>
+                            </div>
+                        </div>
+                        <div class="skill flex items-center">
+                            <h2>CSS</h2>
+                            <div class="progress">
+                                <span data-progress="85%"></span>
+                            </div>
+                        </div>
+                        <div class="skill flex items-center">
+                            <h2>Python</h2>
+                            <div class="progress">
+                                <span data-progress="60%"></span>
+                            </div>
+                        </div>
+                        <div class="skill flex items-center">
+                            <h2>JavaScript</h2>
+                            <div class="progress">
+                                <span data-progress="80%"></span>
+                            </div>
+                        </div>
+                        <div class="skill flex items-center">
+                            <h2>Java</h2>
+                            <div class="progress">
+                                <span data-progress="50%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery flex justify-center items-center" id="gallery">
+                <div class="container flex flex-col justify-center items-center">
+                    <h2 class="title">our gallery</h2>
+                    <div class="boxes flex flex-col justify-center items-center">
+                        <ul class="links flex justify-center items-center">
+                            <li class="cursor-pointer active">all</li>
+                            <li class="cursor-pointer">design</li>
+                            <li class="cursor-pointer">programming</li>
+                            <li class="cursor-pointer">photography</li>
+                        </ul>
+                        <div class="imgs">
+                            <img src="assets/images/konstantin-kleine-V1NVvXmO_dk-unsplash.jpg" alt="galley" data-type="design">
+                            <img src="assets/images/konstantin-kleine-V1NVvXmO_dk-unsplash.jpg" alt="galley" data-type="photography">
+                            <img src="assets/images/konstantin-kleine-V1NVvXmO_dk-unsplash.jpg" alt="galley" data-type="programming">
+                            <img src="assets/images/konstantin-kleine-V1NVvXmO_dk-unsplash.jpg" alt="galley" data-type="programming">
+                            <img src="assets/images/konstantin-kleine-V1NVvXmO_dk-unsplash.jpg" alt="galley" data-type="programming">
+                            <img src="assets/images/konstantin-kleine-V1NVvXmO_dk-unsplash.jpg" alt="galley" data-type="design">
+                            <img src="assets/images/konstantin-kleine-V1NVvXmO_dk-unsplash.jpg" alt="galley" data-type="photography">
+                            <img src="assets/images/konstantin-kleine-V1NVvXmO_dk-unsplash.jpg" alt="galley" data-type="programming">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="timelines flex justify-center items-center" id="timeline">
+                <div class="container flex justify-center relative">
+                    <div class="line">
+                    </div>
+                    <div class="year" data-position="1.5em">2020</div>
+                    <span data-position="5.8em"></span>
+                    <div class="content left" data-position="5em">
+                        <h2>testing heading</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In possimus exercitationem aspernatur assumenda, fugit dolor labore unde similique repudiandae tempore quidem illo repellat eius nobis voluptatem? Vero quo error nam.</p>
+                    </div>
+                    <div class="year" data-position="20em">2021</div>
+                    <span data-position="25.8em"></span>
+                    <div class="content right" data-position="25em">
+                        <h2>testing heading</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In possimus exercitationem aspernatur assumenda, fugit dolor labore unde similique repudiandae tempore quidem illo repellat eius nobis voluptatem? Vero quo error nam.</p>
+                    </div>
+                    <span data-position="38.8em"></span>
+                    <div class="content right" data-position="38em">
+                        <h2>testing heading</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In possimus exercitationem aspernatur assumenda, fugit dolor labore unde similique repudiandae tempore quidem illo repellat eius nobis voluptatem? Vero quo error nam.</p>
+                    </div>
+                    <div class="year" data-position="52.5em">2022</div>
+                    <span data-position="58.8em"></span>
+                    <div class="content left" data-position="58em">
+                        <h2>testing heading</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In possimus exercitationem aspernatur assumenda, fugit dolor labore unde similique repudiandae tempore quidem illo repellat eius nobis voluptatem? Vero quo error nam.</p>
+                    </div>
+                    <span data-position="71.8em"></span>
+                    <div class="content right" data-position="71em">
+                        <h2>testing heading</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In possimus exercitationem aspernatur assumenda, fugit dolor labore unde similique repudiandae tempore quidem illo repellat eius nobis voluptatem? Vero quo error nam.</p>
+                    </div>
+                    <div class="year" data-position="85.5em">2023</div>
+                    <span data-position="92.8em"></span>
+                    <div class="content left" data-position="92em">
+                        <h2>testing heading</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In possimus exercitationem aspernatur assumenda, fugit dolor labore unde similique repudiandae tempore quidem illo repellat eius nobis voluptatem? Vero quo error nam.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="features flex justify-center items-center" id="features">
+                <div class="container flex flex-col justify-center items-center">
+                    <div class="title">our features</div>
+                    <div class="boxes flex justify-center items-center">
+                        <div class="box text-center">
+                            <div class="icon flex justify-center items-center">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <h2>development</h2>
+                            <p>we are professional marketerres, we will do anything you imagine in no time</p>
+                        </div>
+                        <div class="box text-center">
+                            <div class="icon flex justify-center items-center">
+                                <i class="fas fa-brush"></i>
+                            </div>
+                            <h2>design</h2>
+                            <p>we are professional marketerres, we will do anything you imagine in no time</p>
+                        </div>
+                        <div class="box text-center">
+                            <div class="icon flex justify-center items-center">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <h2>photography</h2>
+                            <p>we are professional marketerres, we will do anything you imagine in no time</p>
+                        </div>
+                        <div class="box text-center">
+                            <div class="icon flex justify-center items-center">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h2>time</h2>
+                            <p>we are professional marketerres, we will do anything you imagine in no time</p>
+                        </div>
+                        <div class="box text-center">
+                            <div class="icon flex justify-center items-center">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <h2>social</h2>
+                            <p>we are professional marketerres, we will do anything you imagine in no time</p>
+                        </div>
+                        <div class="box text-center">
+                            <div class="icon flex justify-center items-center">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h2>love</h2>
+                            <p>we are professional marketerres, we will do anything you imagine in no time</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonials flex justify-center items-center" id="testimonials">
+                <div class="container">
+                    <h2>testimonials</h2>
+                    <div class="boxes flex justify-between items-center">
+                        <div class="box">
+                            <p>I am very happy with the product it's amazing and i recive it very fast and the price was amazing</p>
+                            <div class="info flex items-center">
+                                <div class="img">
+                                    <img src="./assets/images/avatar-03 (1).png" alt="testimonials">
+                                </div>
+                                <div class="name">
+                                    <h3>karam naeem</h3>
+                                    <p>CEO AI Company</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <p>I am very happy with the product it's amazing and i recive it very fast and the price was amazing</p>
+                            <div class="info flex items-center">
+                                <div class="img">
+                                    <img src="./assets/images/avatar-04.png" alt="testimonials">
+                                </div>
+                                <div class="name">
+                                    <h3>waseem nasser</h3>
+                                    <p>CEO AI Company</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <p>I am very happy with the product it's amazing and i recive it very fast and the price was amazing</p>
+                            <div class="info flex items-center">
+                                <div class="img">
+                                    <img src="./assets/images/avatar-05.png" alt="testimonials">
+                                </div>
+                                <div class="name">
+                                    <h3>fares mezher</h3>
+                                    <p>CEO AI Company</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact flex justify-center items-center">
+                <div class="container flex flex-col justify-center items-center">
+                    <div class="title">contact us</div>
+                    <form action="index.html" class="flex items-center justify-center">
+                        <div class="left flex flex-col">
+                            <input type="text" name="username" placeholder="your name">
+                            <input type="tel" name="phone number" placeholder="your phone">
+                            <input type="email" name="email" placeholder="your email">
+                            <input type="text" name="subject" placeholder="subject">
+                        </div>
+                        <div class="right flex flex-col">
+                            <textarea placeholder="your message"></textarea>
+                            <input type="submit" name="send" value="send">
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <footer class="footer flex justify-center items-center">
+                <div class="container text-center capitalize">
+                    <p>created with love by moones mezher</p>
+                    <span>&copy; all reversed - 2023 </span>
+                </div>
+            </footer>
+            <aside class="settings-box fixed top-0 z-10 flex flex-col gap-4 hide">
+                <div class="content relative">
+                    <spn class="btn absolute cursor-pointer flex justify-center items-center">
+                        <i class="fas fa-edit"></i>
+                    </spn>
+                    <div class="colors text-center">
+                        <h2 class="capitalize font-bold">colors</h2>
+                        <ul class="list-none flex gap-3 justify-center items-center">
+                            <li class="cursor-pointer active" data-color="rgb(245, 158, 11)"></li>
+                            <li class="cursor-pointer" data-color="#e91e63"></li>
+                            <li class="cursor-pointer" data-color="#009688"></li>
+                            <li class="cursor-pointer" data-color="#03a9f4"></li>
+                        </ul>
+                    </div>
+                    <div class="random-bg text-center">
+                        <h2 class="capitalize font-bold">random backgrounds</h2>
+                        <div class="controls">
+                            <span class="cursor-pointer text-white randomly active" data-random="yes">yes</span>
+                            <span class="cursor-pointer text-white unrandomly" data-random="no">no</span>
+                        </div>
+                    </div>
+                    <div class="show-bullets-nav text-center">
+                        <h2 class="capitalize font-bold">bullets status</h2>
+                        <div class="controls">
+                            <span class="cursor-pointer text-white able active">able</span>
+                            <span class="cursor-pointer text-white disable">disable</span>
+                        </div>
+                    </div>
+                    <div class="reset text-center">
+                        <h2 class="capitalize font-bold">reset settings</h2>
+                        <div class="controls">
+                            <span class="cursor-pointer text-white able">yes</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <div class="popup-gallery flex justify-center items-center">
+            <div class="close cursor-pointer">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+            <div class="content flex flex-col justify-center items-center">
+            </div>
+        </div>
+        <div class="bullets-nav flex flex-col">
+            <a class="bullet cursor-pointer" href="#about" data-nav="about us"></a>
+            <a class="bullet cursor-pointer" href="#skills" data-nav="our skills"></a>
+            <a class="bullet cursor-pointer" href="#gallery" data-nav="our gallery"></a>
+            <a class="bullet cursor-pointer"  href="#timeline" data-nav="timeline"></a>
+            <a class="bullet cursor-pointer"  href="#features" data-nav="features"></a>
+            <a class="bullet cursor-pointer"  href="#testimonials" data-nav="testimonials"></a>
+        </div>
+        <script src="./assets/js/jquery-3.6.3.min.js"></script>
+        <script src="./assets/js/index.js"></script>
+    </body>
+</html>
